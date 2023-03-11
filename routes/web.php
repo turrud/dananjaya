@@ -14,11 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/1', function () {
-    return view('welcome');
-});
 Route::get('/', function () {
-    return view('welcomee');
+    return view('welcome');
 });
 Route::get('/home', function () {
     return view('home');
@@ -33,5 +30,20 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+
+Route::get('/admin-dashboard', function () {
+    return view('dashboard.index');
+});
+Route::get('/pay', function () {
+    return view('dashboard.pembayaran.index');
+});
+Route::get('/event', function () {
+    return view('dashboard.event.index');
+});
+Route::get('/porto', function () {
+    return view('dashboard.portofolio.index');
+});
+
 
 require __DIR__.'/auth.php';

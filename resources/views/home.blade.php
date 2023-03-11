@@ -409,7 +409,7 @@
                       <div class="card-body">
                         <h5 class="card-title">Fatur Rahman</h5>
                         <p class="card-text"><i>"(QS. AL-`Alaq[96]:1-5)"</i></p>
-                        <p class="card-text"><small class="text-muted">Developer</small></p>
+                        <p class="card-text"><small class="text-muted">🌏️</small></p>
                       </div>
                     </div>
                     <div class="card border-0 wow fadeInDown thumbnail" data-wow-delay=".5s" style="max-width: 300px; background-color: #C2A26F">
